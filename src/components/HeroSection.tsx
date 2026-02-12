@@ -24,8 +24,8 @@ export function HeroSection() {
           {/* Main Title */}
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
             Product Owner
-            <span className="block text-white/80 mt-2">
-              Estratégia, Produto e Entrega de Valor
+            <span className="block text-white/80 mt-2">Estratégia e Entrega de Valor
+
             </span>
           </h1>
 
@@ -83,6 +83,6 @@ export function HeroSection() {
           <div className="w-1.5 h-3 bg-white/50 rounded-full" />
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 }
