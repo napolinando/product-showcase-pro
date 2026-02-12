@@ -43,7 +43,7 @@ export function HeroSection() {
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
-            <Button asChild variant="outline" size="lg" className="border-white/30 text-white hover:bg-white/10 font-semibold px-8">
+            <Button asChild variant="outline" size="lg" className="border-primary-foreground/30 text-primary hover:bg-primary-foreground/10 font-semibold px-8 bg-primary-foreground">
               <Link to="/contato">
                 Entrar em Contato
               </Link>
