@@ -35,7 +35,7 @@ export function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <span className="text-xl md:text-2xl font-bold text-slate-950">
+            <span className="text-xl md:text-2xl font-bold text-muted-foreground">
               
               Fernando Napoli 
              
@@ -48,12 +48,12 @@ export function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-1">
             {navItems.map((item) => <Link key={item.name}
-              to={item.href}
-              className={`px-4 py-2 text-sm font-medium rounded-lg transition-colors duration-200 ${
-              location.pathname === item.href ?
-              'bg-primary text-primary-foreground' :
-              'text-muted-foreground hover:text-foreground hover:bg-secondary'}`
-              }>
+            to={item.href}
+            className={`px-4 py-2 text-sm font-medium rounded-lg transition-colors duration-200 ${
+            location.pathname === item.href ?
+            'bg-primary text-primary-foreground' :
+            'text-muted-foreground hover:text-foreground hover:bg-secondary'}`
+            }>
 
                 {item.name}
               </Link>
