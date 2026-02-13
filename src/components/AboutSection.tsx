@@ -51,7 +51,7 @@ export function AboutSection() {
           {/* Image/Visual */}
           <div className="relative animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             <div className="aspect-square rounded-2xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center overflow-hidden">
-              <img src={fernandoImg} alt="Fernando - Product Owner" className="w-full h-full object-cover rounded-2xl" />
+              <img src={fernandoImg} alt="Fernando - Product Owner" className="w-full h-full object-cover object-top rounded-2xl" />
             </div>
             {/* Decorative Elements */}
             <div className="absolute -top-4 -right-4 w-24 h-24 bg-primary/10 rounded-2xl -z-10" />
