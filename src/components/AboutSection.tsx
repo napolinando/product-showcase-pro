@@ -1,4 +1,5 @@
 import { CheckCircle2 } from 'lucide-react';
+import fernandoImg from '@/assets/Fernando.jpg';
 
 const highlights = [
   'Definição de visão de produto alinhada aos objetivos de negócio',
@@ -50,15 +51,7 @@ export function AboutSection() {
           {/* Image/Visual */}
           <div className="relative animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             <div className="aspect-square rounded-2xl bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center overflow-hidden">
-              <div className="relative w-4/5 h-4/5 rounded-xl bg-card shadow-card flex items-center justify-center">
-                <div className="text-center p-8">
-                  <div className="w-24 h-24 mx-auto mb-6 rounded-full bg-primary/10 flex items-center justify-center">
-                    <span className="text-4xl font-bold text-primary">N</span>
-                  </div>
-                  <p className="text-lg font-semibold text-foreground">Fernando</p>
-                  <p className="text-sm text-muted-foreground">Product Owner</p>
-                </div>
-              </div>
+              <img src={fernandoImg} alt="Fernando - Product Owner" className="w-full h-full object-cover rounded-2xl" />
             </div>
             {/* Decorative Elements */}
             <div className="absolute -top-4 -right-4 w-24 h-24 bg-primary/10 rounded-2xl -z-10" />
